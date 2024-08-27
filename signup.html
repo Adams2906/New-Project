@@ -46,6 +46,16 @@
             <input type="range" id="booking_people" name="booking_people" min="1" max="10" value="4" oninput="this.nextElementSibling.value=this.value"> 
             <output>4</output>
         </div>
+
+        <div>
+          <label for=""></label>
+          <input id="booking_location" name="booking_location" list="locations">
+          <datalist id="locations">
+            <option value="Downtown"></option>
+            <option value="Uptown"></option>
+          </datalist>
+        </div>
+
         <div>
          <button type="submit">Sign Up</button>
         </div>
